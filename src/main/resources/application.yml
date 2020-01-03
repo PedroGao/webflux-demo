@@ -1,0 +1,28 @@
+# app
+spring:
+  mandatory-file-encoding: utf-8
+  # postgres数据库
+  r2dbc:
+    password:
+    url: r2dbc:postgres://127.0.0.1:5432/imooc
+    username: pedro
+
+logging:
+  level:
+    org.springframework.data.r2dbc: DEBUG
+    web: INFO
+
+
+#
+# webflux
+# spring.resources.static-locations=classpath:/resources/public/
+# spring.webflux.static-path-pattern=/static/**
+#
+# 日志
+#logging.level.org.springframework.data.r2dbc=DEBUG
+#logging.level.web=INFO
+#
+# postgres数据库
+#spring.r2dbc.url=r2dbc:postgres://127.0.0.1:5432/imooc
+#spring.r2dbc.username=pedro
+#spring.r2dbc.password=

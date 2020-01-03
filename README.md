@@ -17,9 +17,9 @@
 
 ### 数据插入
 
-使用`sql`脚本直接创建数据，数据库脚本文件见`resources`下的[`schema.sql`]()。
+使用`sql`脚本直接创建数据，数据库脚本文件见`resources`下的[`schema.sql`](https://github.com/PedroGao/webflux-demo/blob/master/src/main/resources/schema.sql)。
 
-修改数据库配置，使与你本地相适应，配置文件为[application.yml]()。
+修改数据库配置，使与你本地相适应，配置文件为[application.yml](https://github.com/PedroGao/webflux-demo/blob/master/src/main/resources/application.yml)。
 
 ### 使用
 
